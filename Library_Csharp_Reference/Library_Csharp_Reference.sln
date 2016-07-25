@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_Csharp_Reference", "Library_Csharp_Reference\Library_Csharp_Reference.csproj", "{D600331C-105F-4DEF-9BAD-4212014439EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes", "BasicTypes\BasicTypes.csproj", "{EF4932E8-1244-4047-87F0-3B0D3AC3578A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music_ImperialMarch", "Music_ImperialMarch\Music_ImperialMarch.csproj", "{51AED270-C68C-4DA5-970B-9C9885B905C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmatic\Arithmetic.csproj", "{A1A17A2C-D950-4584-90C4-CA2B5D1D43AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D600331C-105F-4DEF-9BAD-4212014439EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D600331C-105F-4DEF-9BAD-4212014439EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D600331C-105F-4DEF-9BAD-4212014439EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D600331C-105F-4DEF-9BAD-4212014439EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4932E8-1244-4047-87F0-3B0D3AC3578A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4932E8-1244-4047-87F0-3B0D3AC3578A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4932E8-1244-4047-87F0-3B0D3AC3578A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4932E8-1244-4047-87F0-3B0D3AC3578A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51AED270-C68C-4DA5-970B-9C9885B905C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AED270-C68C-4DA5-970B-9C9885B905C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AED270-C68C-4DA5-970B-9C9885B905C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AED270-C68C-4DA5-970B-9C9885B905C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A17A2C-D950-4584-90C4-CA2B5D1D43AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A17A2C-D950-4584-90C4-CA2B5D1D43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A17A2C-D950-4584-90C4-CA2B5D1D43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A17A2C-D950-4584-90C4-CA2B5D1D43AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
