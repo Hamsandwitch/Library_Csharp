@@ -8,8 +8,16 @@ namespace ConsoleApplication1
 {
     class Program
     {
+            
         static void Main(string[] args)
         {
+            string notice1 = "Everyone likes Star Wars! :D ";
+            Console.Title = "Imperial March";
+            Console.WriteLine("###################################");
+            Console.WriteLine("#");
+            Console.WriteLine($"#  {notice1}");
+            Console.WriteLine("#");
+            Console.WriteLine("###################################");
       Console.Beep(440, 500); Console.Beep(440, 500); 
       Console.Beep(440, 500);
       Console.Beep(349, 350); Console.Beep(523, 150);
@@ -52,7 +60,7 @@ namespace ConsoleApplication1
       Console.Beep(440, 500); Console.Beep(349, 375); 
       Console.Beep(261, 125); Console.Beep(440, 1000);
       Thread.Sleep(100);
-
+            Console.ReadLine();
          }
     }
 }

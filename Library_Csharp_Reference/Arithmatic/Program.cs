@@ -48,22 +48,32 @@ namespace Arithmetic
             --x; // subtract 1 from X, after X's value has been determined
 
 
-            x += 42; //
+            // Assignment and Lambda expressions
 
-            x -= 42; //
+            x += 42; // increment. Add the value of y to the value of x, store the result in x, and return the new value.
 
-            x *= 42; //
+            x -= 42; // decrement. Subtract the value of y from the value of x, store the result in x, and return the new value. 
 
-            x /= 42; //
+            x *= 42; // multiplication assignment. Multiply the value of y to the value of x, store the result in x, and return the new value.
+
+          //  x /= 42; // division assignment. Divide the value of x by the value of y, store the result in x, and return the new value.
+
+          // x %= y;  // modulus assignment. Divide the value of x by the value of y, store the remainder in x, and return the new value.
+
+          // x &= y; // AND assignment. AND the value of y with the value of x, store the result in x, and return the new value.
+
+          // x |= y; // OR assignment. OR the value of y with the value of x, store the result in x, and return the new value.
+
+          // x ^= y; // XOR assignment. XOR the value of y with the value of x, store the result in x, and return the new value.
+
+          // x <<= y; // left-shift assignment.Shift the value of x left by y places, store the result in x, and return the new value.
+
+          // x >>= y; // right - shift assignment.Shift the value of x right by y places, store the result in x, and return the new value.
+
+            =>; // lambda declaration.
 
 
-
-
-
-
-
-
-            // Comparative functions
+              // Comparative functions
 
             var eq = 10 == 5; // equal
 
