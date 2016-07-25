@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmatic\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections and Enumerables", "Collections and Enumerables\Collections and Enumerables.csproj", "{4069A17C-AADB-43DA-B14A-49ECA6636452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEnumFunction", "ArrayEnumFunction\ArrayEnumFunction.csproj", "{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz_Exercises", "FizzBuzz_Exercises\FizzBuzz_Exercises.csproj", "{A81ED7D6-6061-47AF-89AC-49E8CC84926F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4069A17C-AADB-43DA-B14A-49ECA6636452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4069A17C-AADB-43DA-B14A-49ECA6636452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4069A17C-AADB-43DA-B14A-49ECA6636452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
