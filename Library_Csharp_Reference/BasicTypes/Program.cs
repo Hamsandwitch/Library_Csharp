@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace BasicTypes
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Clear();
+            Console.WriteLine("Press any key for the magic.");
+            Console.ReadKey();
+            Console.Clear();
             string notice1 = "This will be a representation of basic type definitions.";
             Console.Title = "Basic Types";
             Console.WriteLine("###########################################################");

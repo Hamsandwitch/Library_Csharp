@@ -21,6 +21,13 @@ namespace Collections_and_Enumerables
         public enum Mood { Lazy, Female, Unknown };
         static void Main(string[] args)
         {
+
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Clear();
+            Console.WriteLine("Press any key for the magic.");
+            Console.ReadKey();
+            Console.Clear();
             string notice1 = "This will be a representation of collections.";
             Console.Title = "Collections and Enumerables";
             Console.WriteLine("###########################################################");

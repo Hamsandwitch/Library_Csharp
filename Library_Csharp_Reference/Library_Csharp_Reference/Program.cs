@@ -10,6 +10,13 @@ namespace Library_Csharp_Reference
     {
         static void Main(string[] args)
         {
+
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Clear();
+            Console.WriteLine("Press any key for the magic.");
+            Console.ReadKey();
+            Console.Clear();
             Console.WriteLine("Hello Console");
             Console.ReadLine();
         }

@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Arithmetic
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Clear();
+            Console.WriteLine("Press any key for the magic.");
+            Console.ReadKey();
+            Console.Clear();
             string notice1 = "This will be a representation of basic arithmetic operations.";
             Console.Title = "Arithmetic";
             Console.WriteLine("###################################################################");
@@ -17,6 +24,9 @@ namespace Arithmetic
             Console.WriteLine($"#  {notice1}");
             Console.WriteLine("#");
             Console.WriteLine("###################################################################");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
 
             var x = 1; // while value is a static 32-bit integer (int32), it can be manipulated after this simply using x = 1 etc. (must be within initial 16/32/64)
 
@@ -39,22 +49,22 @@ namespace Arithmetic
 
             // Increment-Decrement operations
 
-            x++; // adds 1 to X, does not require value to X
+          //  x++; // adds 1 to X, does not require value to X
 
-            ++x; // adds 1 to X, after X's value has been determined
+          //  ++x; // adds 1 to X, after X's value has been determined
 
-            x--; // subtracts 1 from X, does not require value to X
+          //  x--; // subtracts 1 from X, does not require value to X
 
-            --x; // subtract 1 from X, after X's value has been determined
+          //  --x; // subtract 1 from X, after X's value has been determined
 
 
             // Assignment and Lambda expressions
 
-            x += 42; // increment. Add the value of y to the value of x, store the result in x, and return the new value.
+          //  x += 42; // increment. Add the value of y to the value of x, store the result in x, and return the new value.
 
-            x -= 42; // decrement. Subtract the value of y from the value of x, store the result in x, and return the new value. 
+          //  x -= 42; // decrement. Subtract the value of y from the value of x, store the result in x, and return the new value. 
 
-            x *= 42; // multiplication assignment. Multiply the value of y to the value of x, store the result in x, and return the new value.
+          //  x *= 42; // multiplication assignment. Multiply the value of y to the value of x, store the result in x, and return the new value.
 
           //  x /= 42; // division assignment. Divide the value of x by the value of y, store the result in x, and return the new value.
 
@@ -73,7 +83,7 @@ namespace Arithmetic
             =>; // lambda declaration.
 
 
-              // Comparative functions
+            // Comparative functions
 
             var eq = 10 == 5; // equal
 
@@ -106,6 +116,7 @@ namespace Arithmetic
 
 
             Console.ReadLine();
+        
         }
     }
 }

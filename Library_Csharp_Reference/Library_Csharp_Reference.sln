@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_Csharp_Reference", "Library_Csharp_Reference\Library_Csharp_Reference.csproj", "{D600331C-105F-4DEF-9BAD-4212014439EA}"
 EndProject
@@ -16,6 +16,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEnumFunction", "ArrayEnumFunction\ArrayEnumFunction.csproj", "{93C7977F-E1F7-4A3E-83FE-F375DAD6CB5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz_Exercises", "FizzBuzz_Exercises\FizzBuzz_Exercises.csproj", "{A81ED7D6-6061-47AF-89AC-49E8CC84926F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughAnimation", "RoughAnimation\RoughAnimation.csproj", "{FB1D689E-B6FE-4E7D-9A4C-A5C6A23EA251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoughAnimation2", "RoughAnimation2\RoughAnimation2.csproj", "{DF829B12-FC59-4533-A38D-FEADF5B7A7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimsCode", "TimsCode\TimsCode.csproj", "{3E092C03-3B95-4E0E-886C-4BE7AABF440D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimsCode2", "TimsCode2\TimsCode2.csproj", "{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A81ED7D6-6061-47AF-89AC-49E8CC84926F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1D689E-B6FE-4E7D-9A4C-A5C6A23EA251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1D689E-B6FE-4E7D-9A4C-A5C6A23EA251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1D689E-B6FE-4E7D-9A4C-A5C6A23EA251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1D689E-B6FE-4E7D-9A4C-A5C6A23EA251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF829B12-FC59-4533-A38D-FEADF5B7A7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF829B12-FC59-4533-A38D-FEADF5B7A7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF829B12-FC59-4533-A38D-FEADF5B7A7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF829B12-FC59-4533-A38D-FEADF5B7A7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E092C03-3B95-4E0E-886C-4BE7AABF440D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E092C03-3B95-4E0E-886C-4BE7AABF440D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E092C03-3B95-4E0E-886C-4BE7AABF440D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E092C03-3B95-4E0E-886C-4BE7AABF440D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
