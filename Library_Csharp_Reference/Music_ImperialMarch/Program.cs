@@ -11,18 +11,17 @@ namespace ConsoleApplication1
             
         static void Main(string[] args)
         {
-
+            string notice1 = "Everyone likes Star Wars! :D ";
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Clear();
             Console.WriteLine("Press any key for the magic.");
             Console.ReadKey();
             Console.Clear();
-            string notice1 = "Everyone likes Star Wars! :D ";
             Console.Title = "Imperial March";
             Console.WriteLine("###################################");
             Console.WriteLine("#");
-            Console.WriteLine($"#  {notice1}");
+            Console.WriteLine("Imperial March!");
             Console.WriteLine("#");
             Console.WriteLine("###################################");
             Console.WriteLine(" ");

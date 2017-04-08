@@ -21,7 +21,7 @@ namespace RoughAnimation
             Console.Title = "Loading Bar Test";
             Console.WriteLine("###################################");
             Console.WriteLine("#");
-            Console.WriteLine($"#  {notice1}");
+            
             Console.WriteLine("#");
             Console.WriteLine("###################################");
             Console.WriteLine(" ");

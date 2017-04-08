@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_Csharp_Reference", "Library_Csharp_Reference\Library_Csharp_Reference.csproj", "{D600331C-105F-4DEF-9BAD-4212014439EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes", "BasicTypes\BasicTypes.csproj", "{EF4932E8-1244-4047-87F0-3B0D3AC3578A}"
@@ -24,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimsCode", "TimsCode\TimsCode.csproj", "{3E092C03-3B95-4E0E-886C-4BE7AABF440D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimsCode2", "TimsCode2\TimsCode2.csproj", "{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetItTesting", "GetItTesting\GetItTesting.csproj", "{8C964790-AF53-4412-BEAF-89AE60A227C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +75,10 @@ Global
 		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEBCE953-8D8D-4C9D-A7B6-F57A19B4FDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C964790-AF53-4412-BEAF-89AE60A227C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C964790-AF53-4412-BEAF-89AE60A227C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C964790-AF53-4412-BEAF-89AE60A227C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C964790-AF53-4412-BEAF-89AE60A227C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
